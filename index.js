@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var child_process = require('child_process');
-var subl = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl';
 
 var argv = process.argv;
 argv.shift();
@@ -15,7 +14,7 @@ if ( argv.length > 1 ) {
   // console.log(argv)
   var first_arg = argv[0];
   if ( first_arg == '-h' || first_arg == '--help' ) {
- 
+    console.log('kp is a tool for kill process by server port. only use for mac\nkp or kp 3002');
   }else{
     server_port = (argv[1] + '').trim();
   }

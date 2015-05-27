@@ -12,11 +12,12 @@ var current_path = process.cwd();
 var server_port = 3000;
 
 if ( argv.length > 1 ) {
+  // console.log(argv)
   var first_arg = argv[0];
   if ( first_arg == '-h' || first_arg == '--help' ) {
  
   }else{
-    server_port = (first_arg + '').trim();
+    server_port = (argv[1] + '').trim();
   }
 }
 

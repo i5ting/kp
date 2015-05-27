@@ -22,3 +22,9 @@ or kill by some port
 ```
 kp 3002
 ```
+
+or with sudo 
+
+```
+kp 3002 -s or kp 3002 --sudo
+```

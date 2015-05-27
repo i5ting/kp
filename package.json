@@ -1,0 +1,50 @@
+{
+  "name": "icli",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "node index.js"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "kp": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/kp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/kp/issues"
+  },
+  "homepage": "https://github.com/i5ting/kp",
+  "dependencies": {
+    "shelljs": "^0.4.0"
+  },
+  "gitHead": "e23a99e6c4c96ac68a93a59d26553b6e389f9c65",
+  "_id": "icli@1.0.5",
+  "_shasum": "239b93b7c3f0c1f54d0327824eaffb86bb567083",
+  "_from": "icli@*",
+  "_npmVersion": "2.6.0",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "i5ting",
+    "email": "shiren1118@126.com"
+  },
+  "maintainers": [
+    {
+      "name": "i5ting",
+      "email": "shiren1118@126.com"
+    }
+  ],
+  "dist": {
+    "shasum": "239b93b7c3f0c1f54d0327824eaffb86bb567083",
+    "tarball": "http://registry.npmjs.org/icli/-/icli-1.0.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/icli/-/icli-1.0.5.tgz",
+  "readme": "ERROR: No README data found!"
+}

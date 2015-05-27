@@ -12,18 +12,15 @@ var server_port = 3000;
 
 if ( argv.length > 1 ) {
   // console.log(argv)
-  var first_arg = argv[0];
+  var first_arg = argv[1];
   if ( first_arg == '-h' || first_arg == '--help' ) {
-    console.log('kp is a tool for kill process by server port. only use for mac\nkp or kp 3002');
+    return console.log('Usages: kp is a tool for kill process by server port. only use for mac\n\tkp \n\tkp 3002');
   }else{
     server_port = (argv[1] + '').trim();
   }
 }
 
 var script = 'lsof -i:' + server_port +'|xargs killall';
-
-console.log(script);
-
 
 // execFile: executes a file with the specified arguments
 child_process.exec(script,

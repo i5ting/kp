@@ -2,6 +2,8 @@
 
 kp is a tool for kill process by server port. only use for mac
 
+[![npm version](https://badge.fury.io/js/kp.svg)](http://badge.fury.io/js/kp)
+
 ## Install
 
     [sudo]npm install -g kp

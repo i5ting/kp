@@ -1,7 +1,7 @@
 {
   "name": "kp",
-  "version": "1.0.9",
-  "description": "",
+  "version": "1.0.10",
+  "description": "kp is a tool for kill process by server port. only use for mac && linux",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
@@ -11,6 +11,14 @@
   "bin": {
     "kp": "index.js"
   },
+  "keywords": [
+    "node",
+    "npm",
+    "kill",
+    "process",
+    "linux",
+    "mac"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/i5ting/kp.git"

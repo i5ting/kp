@@ -51,8 +51,6 @@ kill by some port with sudo
   kp(3980, 'sudo');
 ```
 
-
-
 ## Contributing
 
 1. Fork it
@@ -68,7 +66,7 @@ kill by some port with sudo
 
 ## 欢迎fork和反馈
 
-- write by `i5ting` shiren1118@126.com
+- write by `i5ting` i5ting@126.com
 
 如有建议或意见，请在issue提问或邮件
 

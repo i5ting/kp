@@ -14,9 +14,9 @@ function exec_kp (server_port, pre) {
   child_process.exec(script,
     function (error, stdout, stderr) {
       if (error !== null) {
-        console.log('kp exec error: ' + error);
-      }else{
-        console.log("kp exeute sucess!")
+        console.log('Failed to kill process on port ' + server_port + ':' + error);
+      } else {
+        console.log('Killed process on port ' + server_port);
       }
   });
 }

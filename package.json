@@ -1,6 +1,6 @@
 {
   "name": "kp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "kp is a tool for kill process by server port. only use for mac && linux",
   "main": "index.js",
   "scripts": {

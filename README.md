@@ -6,27 +6,27 @@ kp is a tool for kill process by server port. it can be used on mac && linux && 
 
 ## Install
 
-    [sudo]npm install -g kp
+    $ [sudo] npm install -g kp
 
 ## Usage 
 
 default server port is 3000
 
 ```
-kp
+$ kp
 ```
 
 or kill by some port
 
 
 ```
-kp 3002
+$ kp 3002
 ```
 
 or with sudo 
 
 ```
-kp 3002 -s or kp 3002 --sudo
+$ kp 3002 -s or kp 3002 --sudo
 ```
 
 ## Code
